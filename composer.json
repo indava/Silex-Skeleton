@@ -1,6 +1,6 @@
 {
-    "name": "fabpot/silex-skeleton",
-    "description": "A pre-configured skeleton for the Silex microframework",
+    "name": "indava/silex-skeleton",
+    "description": "A pre-configured skeleton for the Silex microframework based on fabpot/silex-skeleton",
     "license": "MIT",
     "type": "project",
     "require": {
@@ -24,7 +24,7 @@
         "symfony/validator": "~2.8|3.0.*"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-4": { "Indava\\": "src/" }
     },
     "extra": {
         "branch-alias": {
